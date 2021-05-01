@@ -1,0 +1,36 @@
+@media (min-width: 700px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .book-filter {
+        flex-direction: row;
+    }
+    .book-preview {
+        width: 250px;
+        height: 350px;
+    }
+    .book-preview img {
+        width: 180px;
+        height: 230px;
+    }
+    .book-preview span[name='book-name'] {
+        font-size: 1.3rem;
+    }
+    .book-detail img {
+        width: 250px;
+        height: 300px;
+        padding: 10px;
+    }
+    .book-detail p {
+        font-size: 1.25rem;
+    }
+    .detail-container {
+        display: flex;
+        flex-direction: column;
+        max-width: 500px;
+    }
+    .book-preview:hover {
+        box-shadow: 0px 0px 5px 2px #001fffc7;
+    }
+}
